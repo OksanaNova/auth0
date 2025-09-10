@@ -1,5 +1,6 @@
 import './App.css'
 import Login from './Login';
+import Logout from './Logout';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <div>
       <Login />
+      <Logout />
     </div>
   )
 }
